@@ -2,6 +2,10 @@
 <manifest>
    <remote name="github"
           fetch="https://github.com/" />
+     <remote name="aoscp"
+          fetch="https://github.com/CypherOS/"
+          review="https://gerrit.cypheros.co/"
+          revision="refs/heads/poundcake-release" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
